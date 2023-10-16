@@ -11,6 +11,12 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const title = "My first post";
+const text = "Hello world!";
+let likes = 0;
+const user = "John Doe";
+const isReported = false;
+
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +24,15 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+
+console.log(title);
+console.log(text);
+console.log(likes);
+console.log(user);
+console.log(isReported);
+
+likes = likes + 1;
+
+console.log(likes);
 
 // --^-- write your code here --^--
